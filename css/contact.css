@@ -1,0 +1,248 @@
+
+.first_img{
+    position: relative;
+    color: black;
+   
+}
+
+body{
+    overflow-x: hidden;
+}
+.first_img::before{
+    content: "";
+    background: url("../img/contact/Rectangle299.png");
+    height: 89vh;
+    width: 100%;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+.section_2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box{
+    height: 711px;
+    width: 1212px;
+    border-radius: 19px;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    color: white;
+}
+
+.p1{
+    height: 97px;
+    width: 849px;
+    font-size:large;
+    font-weight:700;
+    text-align: center;
+    
+}
+
+.h2{
+    text-align: center;
+    width: 297px;
+    font-size:xx-large ;
+    font-weight: 700;
+}
+
+.first_sec{
+    width: 60%;
+    background-color: white;
+    border-radius: 19px  0px  0px 19px;  
+}
+
+.second_sec{
+    width: 40%;
+    position: relative;
+}
+
+.second_sec::before{
+    content: "";
+    position: absolute;
+    height: 98vh;
+    width: 100%;
+    z-index: -1;
+    background: url(../img/contact/contact.png),#3F6190;
+    background-repeat: no-repeat;
+    border-radius: 0px  19px  19px 0px;
+    background-size: contain;
+    
+}
+
+.h1{
+    height: 52px;
+    width: 370px;
+    margin-top: 63px;
+    margin-left: 47px;
+}
+
+.label_form{
+    display: flex;
+}
+
+.f_both{
+    margin-left: 49px;
+}
+.s_both{
+    margin-left: 142px;
+}
+
+.first_n_l{
+    width: 129px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.second_n_l{
+    width: 129px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.inputs{
+    width: 241px;
+    height: 51px;
+    background: #F8F8F8;
+    border: none;
+    border-radius: 5px;
+}
+
+.email{
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+.email_l{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+       color: rgba(0, 0, 0, 0.72);
+}
+
+#email{
+    width: 385px;
+    height: 53px;
+    background: #F8F8F8;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.message{
+    margin-top: 10px;
+    margin-left: 47px;
+}
+
+.message_l{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+       color: rgba(0, 0, 0, 0.72);
+}
+.textarea{
+    width: 617px;
+    height: 146px;
+    background: #F8F8F8;
+    border: none;
+    border-radius: 5px;
+}
+.submit{
+    width: 250px;
+    height: 80px;
+    display: block;
+    margin:34px auto;
+    border-radius: 10px;
+    background: #3F6190;
+    border: none;
+    color:  #FD7771F5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact_info{
+    margin: 72px;
+    text-align: center;
+    color: white;
+}
+.icon{
+    margin-left: 50px;
+    
+}
+.icon_info{
+    display: flex;
+    margin-top: 51px;
+}
+
+.fa-phone-alt{
+    font-size: 45px;
+    color: white;
+}
+
+.fa-map-marker-alt{
+    font-size: 45px;
+    color: white;
+}
+
+.info_1{
+    font-size: 28px;
+    margin-left: 41px;
+    font-weight: 700;
+    color: white;
+}
+
+.fa-envelope{
+    font-size: 50px;
+    color: white;
+}
+
+.info_2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 34px;
+    color: white;
+}
+.h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 50px;
+    color: white;
+}
+
+.location_p{
+    font-size: 11.62;
+    font-weight: 400;
+    width: 207px;
+    height: 41px;
+    line-height: 14.72px;
+    margin-left: 50px;
+    color: white;
+}
+
+.social_media_icons{
+   margin-top: 45px;
+   margin-left: 40px;
+}
+
+.fab{
+    font-size: 37px;
+    margin-left: 37px;
+}

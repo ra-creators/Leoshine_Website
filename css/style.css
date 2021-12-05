@@ -1,0 +1,241 @@
+/* import poppines font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*,
+::after,
+::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+/* ########## text ################## */
+.main-heading{
+    color:#3f6790 ;
+    font-weight: 600;
+    
+}
+.sub-heading{
+    color:#3F6190;
+    font-weight: 600;
+}
+.brand-text{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.footer-text{
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.small{
+    font-size: 0.5rem;
+}
+.pro_titel{
+    color: #000000;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.price{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #27AE60;
+}
+.showcase_text{
+    position: absolute;
+    margin: 0 0 2rem 2rem;
+    transform: translateY(-150%);
+
+}
+
+.footerbg{
+    background: url("../images/footer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    
+}
+
+.label{
+    position: absolute;
+    color: #ffff;
+    transform: translateY(-150%);
+    margin-left: 1.5rem;
+}
+li{
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    list-style: none;
+}
+
+.footer-box{
+    padding: 12rem 0rem 5rem 0rem;
+    color: #ffff;
+}
+.myborder{
+    border: solid #C4C4C4 1.5px;
+}
+.star-rating{
+    color: #FAC404;
+}
+.womanbg{
+    background: url("../img/Ellipse\ 95.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+/* ############searchbox############ */
+.sb-example-1 .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+    
+  }
+  .sb-example-1 .searchTerm {
+    width: 100%;
+    color:#FFFFFF;
+    background: #585656;
+    outline: none;
+    border: none;
+    
+  }
+  .sb-example-1 .searchTerm:focus{
+    color: #FFFFFF;
+  }
+  .sb-example-1 .searchButton {
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    background: #585656;
+    outline: none;
+    border: none;
+  }
+/* new arrival */
+.arrival{
+    margin-top: 2rem;
+
+}
+.new-arrival{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.item{
+    justify-self: center;
+}
+.item2{
+    justify-self: end;
+}
+.featured{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.featuredhe{
+    justify-self: end;
+}
+.featuredin{
+    justify-self: end;
+}
+/* ###### footer ###### */
+.footer{
+    background: url("../img/footer.png");
+    background-size: cover;
+    background-repeat: center;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    color: white;
+    padding: 6rem 2rem 3rem 2rem;
+    align-items: baseline;
+}
+.contact-felx{
+    display: flex;
+    margin-top: 1rem; 
+}
+.singup input{
+    margin-top: 0.5rem;
+
+}
+.icon{
+    margin-right: 1rem;
+}
+.footer-para{
+    text-align: justify;
+}
+.footer-contact{
+    margin: 0rem 1rem 0rem 1rem;
+}
+/* ###### media ######### */
+@media (max-width: 810px){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:550px){
+    .footer{
+        font-size:90% ;
+    }
+}
+/* @@@@@@@@ aboutus page @@@@@@@@@@ */
+.abouttext{
+    color: #FFFFFF;
+    position: absolute;
+    transform: translateY(-450%);
+    left: 45%;
+
+}
+.bg1{
+    background: url("../img/aboutus/bg1.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.choose{
+    background: url("../img/aboutus/bg2.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    color: #3F6190;
+    font-weight: 800;
+}
+.owner img{
+    border-radius: 50%;
+}
+/* @@@@@@@@@@@@@@@ contact @@@@@@@@@@@@@ */
+.contactbg{
+    background-color: #3f6190ab;
+    background-image: url("../img/contact/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.form input{
+    border-radius: 5rem;
+    padding: 0.3rem;
+    outline: none;
+    width: 80%;
+    padding-left: 2rem;
+    border: solid #00000055 1px;
+}
+.contactshow{
+    position: relative;
+    transform: translate(5%,-30%);
+    margin: 0rem 2rem;
+}
+.contactbg1{
+    background-color: #fff;
+}
+
+

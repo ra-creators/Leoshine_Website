@@ -1,0 +1,207 @@
+/* .car::before{
+    content: "About";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.car{
+    position: relative;
+} */
+
+body{
+    overflow-x: hidden;
+}
+.middle_pic{
+    position: relative;
+}
+
+.middle_pic::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/aboutus/Rectangle\ 283.png) ;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61vh;
+    font-size: 47px;
+    color: white;
+    font-weight: 700;
+}
+
+.section_2{
+   
+    margin-top: 129px;
+    /* border: 2px solid black; */
+    position: relative;
+    height: 2438px;
+}
+.hey{
+    display: flex;
+    position: relative;
+}
+.fst{
+    position: relative;
+}
+.fst::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/aboutus/About\ Us.png);
+    height: 241vh;
+    width: 100%;
+    z-index: -1;
+    background-size: contain;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+.first_part{
+    height: 883px;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.card{
+    /* height: 678px; */
+    width: 583px;
+    position: absolute;
+    top: 77px;
+    left: 71px;
+    bottom: 136px;
+    right: 786px;
+}
+
+.second_part{
+    position: relative;
+    width: 50%;
+    top: 115px;
+}
+
+.s_h2{
+    text-align: center;
+    font-size: 41px;
+    height: 66px;
+    color: #3F6190;
+}
+
+.p_c{
+    margin: auto;
+    padding: 51px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    width: 643px;
+    height: 508px;
+
+}
+
+.third_part{
+
+    padding: 36px 96px;
+    
+
+}
+
+.hs3{
+    width: 588px;
+    height: 73px;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #3F6190;
+}
+
+.ps3{
+    width: 1227px;
+    font-size: 24px;
+    height: 270px;
+    line-height: 40px;
+}
+
+.q_i{
+    display: block;
+    margin: auto;
+}
+
+.h_q{
+    text-align: center;
+}
+
+.ball{
+    text-align: end;
+}
+
+.ball_i{
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.dots_i{
+    position: absolute;
+    /* top: 240px; */
+    left: 1308px;
+    height: 208px;
+    width: 189px;
+}
+
+.person_box{
+    width: 450px;
+    height: 383px;
+    background: #3F61900A;
+    margin-left: 150px;
+    margin-top: -172px;
+    border-radius: 13px;
+    box-shadow: 4px 4px 13px #bcc5cd;
+}
+
+
+
+.i_person{
+    width: 350px;
+    height: 350px;
+    border-radius: 172px;
+    /* margin-top: 43px; */
+    margin-left: 203px;
+}
+
+.our_team{
+    width: 181px;
+    height: 40px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #3F6190;
+    margin-left: 36px;
+}
+
+.persons{
+    display: flex;
+    flex-direction: row;
+}
+
+.h_per{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 38vh;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.p_per{
+    display: flex;
+    justify-content: center;
+    height: 38vh;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+}

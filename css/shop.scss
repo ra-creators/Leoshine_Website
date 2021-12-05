@@ -1,0 +1,26 @@
+#thumbnail {
+  height: 450px;
+  background-image: url("/img/shop-thumb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#categories {
+  background-color: #3f6190ab;
+  background-image: url("/img/categories/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .card-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #3f6190;
+  }
+}

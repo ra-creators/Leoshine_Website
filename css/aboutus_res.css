@@ -1,0 +1,103 @@
+
+.hey{
+    flex-direction: column;
+    height: 1100px;
+}
+.ball_i{
+    display: none;
+}
+.dots_i{
+    display: none;
+}
+
+.persons{
+    flex-direction: column;
+}
+
+.i_person{
+    margin-left: 43px;
+}
+
+.person_box{
+    margin-left: -5px;
+
+}
+
+.middle_pic{
+    height: 128px;
+}
+
+.aboutus{
+    height: 87px;
+}
+
+.card{
+    width: 214px;
+    height: 100px;
+}
+
+.s_h2{
+    font-size: 28px;
+    width: 359px;
+}.p_c{
+    font-size: 24px;
+    width: 372px;
+    padding: 0px 12px;
+}
+.hs3{
+    width: 588px;
+    height: 73px;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #3F6190;
+}
+
+.ps3{
+    width: 360px;
+    line-height: 35px;
+    font-size: 22px;
+    padding: 2px 2px;
+
+}
+
+.quality{
+    margin-top: 395px;
+}
+
+.our_team{
+    width: 170px;
+    margin-left: 0px;
+    margin-bottom: 48px;
+    margin-top: 37px;
+}
+
+.i_person{
+    width: 217px;
+    height: 234px;
+}
+
+.person_box{
+    width: 284px;
+    height: 319px;
+    margin-bottom: 51px;
+}
+
+.fst{
+    overflow: hidden;
+}
+
+.fst::before{
+    height: 306%;
+    width: 561%;
+}
+
+.second_part{
+    top: 0px;
+}
+
+.third_part{
+    padding: 36px 12px;
+    margin-top: 122px;
+    margin-top: 100px;
+}
