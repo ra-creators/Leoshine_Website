@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeoShine | Product</title>
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/product.css" />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/fecc50ad8e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- fevicons and others -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <img src="img/logo.png" alt="" class="p-2" width="120px" height="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutusnew.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="shop.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <div class="sb-example-1">
+                  <div class="search">
+                      <button type="submit" class="searchButton">
+                          <i class="fa fa-search"></i>
+                       </button>
+                     <input type="text" class="searchTerm" placeholder="Seacrch..">
+                     
+                  </div>
+              </div>  
+          </form>
+        </div>
+      </div>
+  </nav>
+
+    <!-- product -->
+    <section id="product" class="container p-4">
+      <div class="row">
+        <!-- product gallery -->
+        <div class="col-md-6">
+          <div
+            class="swiper gallery-swiper"
+            style="
+              --swiper-navigation-color: #fff;
+              --swiper-pagination-color: #fff;
+            "
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="img-fluid w-100" src="img/product/gallery-1.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid w-100" src="img/product/gallery-2.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid w-100" src="img/product/gallery-3.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid w-100" src="img/product/gallery-4.png" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div
+            thumbsSlider="gallery-swiper"
+            class="swiper gallery-thumb-swiper"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="img-fluid" src="img/product/gallery-1.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid" src="img/product/gallery-2.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid" src="img/product/gallery-3.png" />
+              </div>
+              <div class="swiper-slide">
+                <img class="img-fluid" src="img/product/gallery-4.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- product details -->
+        <div class="col-md-6">
+          <h1>Caraway Non-Stick Pan Combo</h1>
+          <!-- rating -->
+          <div class="rating row fs-4">
+            <div class="col-auto pe-0">
+              <p class="stars-gold">&#9733;&#9733;&#9733;</p>
+            </div>
+            <div class="col-auto ps-0">
+              <p class="stars-dark">&#9733;&#9733;</p>
+            </div>
+            <div class="col-auto">
+              <p class="reviews fs-5">20 Reviews</p>
+            </div>
+          </div>
+          <!-- price -->
+          <div class="price mb-3">
+            <div>
+              <span class="fs-3">&#8377;500</span>
+              <span>
+                <s class="text-secondary">&#8377;4,000</s>
+              </span>
+              <span class="text-success">OFF 20%</span>
+            </div>
+          </div>
+          <div class="description mb-3">
+            <p>
+              Morbi id velit tortor odio convallis tellus pellentesque sit. Eu
+              et condimentum nam in eget est duis. Quam fermentum, blandit
+              tellus, consectetur sed velit. Sit mauris nam elit lectus nunc
+              egestas egestas leo.
+            </p>
+          </div>
+          <div id="highlights" class="mb-3">
+            <h3 class="fw-bold">Highlights</h3>
+            <ul>
+              <li>
+                <p>Made of : Aluminium</p>
+              </li>
+              <li>
+                <p>Type : Pan and Pot</p>
+              </li>
+              <li>
+                <p>Non-Stick : Pan and Pot</p>
+              </li>
+              <li>
+                <p>Capacity : Pan 2 L and Pan 2 L</p>
+              </li>
+              <li>
+                <p>Diameter : Pan 20 cm and Pot 25.5 cm</p>
+              </li>
+            </ul>
+          </div>
+          <!-- color & quantity -->
+          <section id="color-quantity" class="row g-3 mb-5">
+            <div class="colors col-sm-6">
+              <h3>Color</h3>
+              <div class="d-flex color-pallete">
+                <div
+                  style="background-color: #3f6190cf"
+                  class="color-circle"
+                  data-slide="0"
+                  onclick="setSlide(event)"
+                ></div>
+                <div
+                  style="background-color: #e2d8e3"
+                  class="color-circle"
+                  data-slide="1"
+                  onclick="setSlide(event)"
+                ></div>
+                <div
+                  style="background-color: #d69583"
+                  class="color-circle"
+                  data-slide="2"
+                  onclick="setSlide(event)"
+                ></div>
+
+                <div
+                  style="background-color: #7c9881"
+                  class="color-circle"
+                  data-slide="3"
+                  onclick="setSlide(event)"
+                ></div>
+              </div>
+            </div>
+            <div class="quantity col-sm-6">
+              <h3>Qty</h5>
+              <div class="col-2">
+                <input class="w-100" min="1" value="1" type="number" />
+              </div>
+            </div>
+          </section>
+          <!-- add to cart & buy now -->
+          <div class="row">
+            <div class="col col-sm-auto">
+              <button class="btn btn-dark">Add to Cart</button>
+            </div>
+            <div class="col col-sm-auto">
+              <button class="btn btn-light bg-light">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="height: 2rem"></footer>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var galleryThumbSwiper = new Swiper(".gallery-thumb-swiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var gallerySwiper = new Swiper(".gallery-swiper", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: galleryThumbSwiper,
+        },
+      });
+      function setSlide(e) {
+        e.preventDefault();
+        // console.log(e.target.dataset.slide);
+        gallerySwiper.slideTo(e.target.dataset.slide);
+        gallerySwiper.update();
+      }
+    </script>
+  </body>
+</html>
